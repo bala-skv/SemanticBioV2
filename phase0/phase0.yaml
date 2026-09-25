@@ -1,0 +1,45 @@
+# Phase 0 configuration
+# Owner of the model block: Balasubramanian (P0-2)
+
+model:
+  id: Qwen/Qwen2.5-1.5B
+  revision: 8faed761d45a263340a0528343f099c05c9a4323
+  forbid_instruct: true
+  attn_implementation: sdpa
+
+# Structural facts Stage 1 head indexing depends on. Asserted by
+# scripts/verify_model.py -- if a transformers bump changes any of these
+# we want a red test, not silently wrong recovery scores.
+expected_arch:
+  num_hidden_layers: 28
+  hidden_size: 1536
+  num_attention_heads: 12      # query heads
+  num_key_value_heads: 2       # GQA groups
+  head_dim: 128
+
+# PROPOSED for P0-8 -- not yet team-signed-off.
+#
+# Split rationale: train quantized (noise is absorbed into the adapter
+# objective), but trace in full precision. Stage 1's entire output is the
+# shape of the recovery-score distribution; NF4 noise on captured and
+# patched activations could smear a real bimodal signal into a flat one,
+# and we would have no way to tell that apart from the genuine null
+# result that proposal 3.2 has a fallback for. Tracing in fp16 costs
+# ~3.5 GiB against an 11 GiB card, so there is no reason to take the risk.
+#
+# fp16 rather than bf16: Turing (sm_75) has no native bf16.
+precision:
+  tracing: fp16
+  training: 4bit
+
+# Raised from the proposal's 5.0 GiB, which was written before hardware
+# was settled. Cards are ~11 GiB. Margin left for head-capture hooks,
+# which hold a cached run in memory during patching.
+budget_gib: 8.0
+
+# gnode* is heterogeneous: RTX 2080 Ti (sm_75) and GTX 1080 Ti (sm_61).
+# bitsandbytes NF4 requires sm_75+. Constrain the SLURM job AND assert
+# in-process (model_loading.check_device_capability).
+cluster:
+  min_compute_capability: [7, 5]
+  partition: u22
