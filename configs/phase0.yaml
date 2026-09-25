@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------------------
+# Phase 0 configuration — single source of truth for the de-risking pilot.
+# Every field maps to a dataclass in circuit_routing/config.py.
+# ---------------------------------------------------------------------------
+
+model:
+  # Base (NON-instruction-tuned) checkpoint, per the proposal.
+  name: "Qwen/Qwen2.5-1.5B"
+  # Pinned to the head of `main` (commit "Update config.json", 2024-10-08) for
+  # reproducibility. Verify: https://huggingface.co/Qwen/Qwen2.5-1.5B/commits/main
+  revision: "8faed761d45a263340a0528343f099c05c9a4323"
+  dtype: "bfloat16"         # compute/base dtype when not quantized
+  trust_remote_code: false
+  forbid_instruct: true     # hard-fail if the checkpoint looks instruction-tuned
+  # Expected structural facts (verified, not assumed). null = "don't check".
+  expect_num_layers: 28
+  expect_num_attention_heads: 12
+  expect_num_key_value_heads: 2
+
+repro:
+  seeds: [0, 1, 2]          # >=3 seeds is the project default
+  deterministic: true
+
+pilot:
+  # The grid swept by the memory pilot. Peak VRAM is recorded for the
+  # TRACING profile (forward + all-head hooks) and the TRAINING profile
+  # (LoRA forward+backward+step) SEPARATELY, because they differ.
+  quant_modes: ["4bit", "8bit", "bf16"]
+  seq_lens: [256, 512]
+  lora_ranks: [4, 8]
+  batch_size: 1
+  grad_accum_steps: 8
+  # Primary config adapts q_proj only (proposal §3.2); k/v/o uniform is an option.
+  lora_target_modules: ["q_proj"]
+  lora_alpha: 16
+  lora_dropout: 0.0
+  vram_budget_gb: 5.0       # go/no-go threshold for a "single small GPU"
+
+quant:
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true
+
+paths:
+  output_dir: "runs"        # timestamped run dirs are created underneath

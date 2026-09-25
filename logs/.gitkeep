@@ -1,0 +1,3 @@
+# Keep this directory in version control so SLURM can write logs/mem-pilot-%j.out.
+# SLURM opens the --output file BEFORE the job script runs; a missing logs/ dir
+# makes the job fail at launch with no log to explain why.

@@ -1,0 +1,2 @@
+# Keep this directory in version control so pilot run dirs (runs/<ts>-*/) have a
+# home immediately after a fresh checkout, before setup_env.sh is run.

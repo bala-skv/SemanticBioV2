@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "circuit-routing"
+version = "0.0.1"
+description = "Phase 0 setup & de-risking for Interpretability-Guided Circuit Routing (Hindi-English LoRA)"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=2.1",
+    "transformers>=4.44,<5",
+    "accelerate>=0.33",
+    "peft>=0.12",
+    "bitsandbytes>=0.43",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["circuit_routing*"]
