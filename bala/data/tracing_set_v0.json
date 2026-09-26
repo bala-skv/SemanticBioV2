@@ -1,0 +1,162 @@
+[
+  {
+    "concept_id": "sky_colour",
+    "category": "colour",
+    "en_prompt": "The colour of a clear sky is",
+    "en_target": " blue",
+    "hi_prompt": "साफ़ आसमान का रंग होता है",
+    "hi_target": " नीला"
+  },
+  {
+    "concept_id": "grass_colour",
+    "category": "colour",
+    "en_prompt": "The colour of fresh grass is",
+    "en_target": " green",
+    "hi_prompt": "ताज़ी घास का रंग होता है",
+    "hi_target": " हरा"
+  },
+  {
+    "concept_id": "blood_colour",
+    "category": "colour",
+    "en_prompt": "The colour of blood is",
+    "en_target": " red",
+    "hi_prompt": "खून का रंग होता है",
+    "hi_target": " लाल"
+  },
+  {
+    "concept_id": "snow_colour",
+    "category": "colour",
+    "en_prompt": "The colour of snow is",
+    "en_target": " white",
+    "hi_prompt": "बर्फ़ का रंग होता है",
+    "hi_target": " सफ़ेद"
+  },
+  {
+    "concept_id": "dog_sound",
+    "category": "animal",
+    "en_prompt": "The animal that barks is the",
+    "en_target": " dog",
+    "hi_prompt": "जो जानवर भौंकता है वह है",
+    "hi_target": " कुत्ता"
+  },
+  {
+    "concept_id": "cat_sound",
+    "category": "animal",
+    "en_prompt": "The animal that meows is the",
+    "en_target": " cat",
+    "hi_prompt": "जो जानवर म्याऊँ करता है वह है",
+    "hi_target": " बिल्ली"
+  },
+  {
+    "concept_id": "elephant_size",
+    "category": "animal",
+    "en_prompt": "The largest land animal is the",
+    "en_target": " elephant",
+    "hi_prompt": "सबसे बड़ा थलचर जानवर है",
+    "hi_target": " हाथी"
+  },
+  {
+    "concept_id": "bird_fly",
+    "category": "animal",
+    "en_prompt": "The animal that flies and has feathers is the",
+    "en_target": " bird",
+    "hi_prompt": "जो जानवर उड़ता है और पंख रखता है वह है",
+    "hi_target": " पक्षी"
+  },
+  {
+    "concept_id": "sun_time",
+    "category": "nature",
+    "en_prompt": "The sky is lit during the day by the",
+    "en_target": " sun",
+    "hi_prompt": "दिन में आसमान को रोशन करता है",
+    "hi_target": " सूरज"
+  },
+  {
+    "concept_id": "moon_time",
+    "category": "nature",
+    "en_prompt": "The sky is lit at night by the",
+    "en_target": " moon",
+    "hi_prompt": "रात में आसमान को रोशन करता है",
+    "hi_target": " चाँद"
+  },
+  {
+    "concept_id": "water_liquid",
+    "category": "nature",
+    "en_prompt": "The liquid we drink every day is",
+    "en_target": " water",
+    "hi_prompt": "जो तरल हम रोज़ पीते हैं वह है",
+    "hi_target": " पानी"
+  },
+  {
+    "concept_id": "fire_hot",
+    "category": "nature",
+    "en_prompt": "The thing that burns and gives heat is",
+    "en_target": " fire",
+    "hi_prompt": "जो जलती है और गर्मी देती है वह है",
+    "hi_target": " आग"
+  },
+  {
+    "concept_id": "eye_see",
+    "category": "body",
+    "en_prompt": "The body part used to see is the",
+    "en_target": " eye",
+    "hi_prompt": "देखने के लिए इस्तेमाल होने वाला अंग है",
+    "hi_target": " आँख"
+  },
+  {
+    "concept_id": "ear_hear",
+    "category": "body",
+    "en_prompt": "The body part used to hear is the",
+    "en_target": " ear",
+    "hi_prompt": "सुनने के लिए इस्तेमाल होने वाला अंग है",
+    "hi_target": " कान"
+  },
+  {
+    "concept_id": "hand_hold",
+    "category": "body",
+    "en_prompt": "The body part used to hold things is the",
+    "en_target": " hand",
+    "hi_prompt": "चीज़ें पकड़ने के लिए इस्तेमाल होने वाला अंग है",
+    "hi_target": " हाथ"
+  },
+  {
+    "concept_id": "book_read",
+    "category": "object",
+    "en_prompt": "The thing we read is a",
+    "en_target": " book",
+    "hi_prompt": "जिसे हम पढ़ते हैं वह है",
+    "hi_target": " किताब"
+  },
+  {
+    "concept_id": "door_enter",
+    "category": "object",
+    "en_prompt": "We enter a room through the",
+    "en_target": " door",
+    "hi_prompt": "कमरे में हम जिससे दाख़िल होते हैं वह है",
+    "hi_target": " दरवाज़ा"
+  },
+  {
+    "concept_id": "key_lock",
+    "category": "object",
+    "en_prompt": "The thing used to open a lock is a",
+    "en_target": " key",
+    "hi_prompt": "ताला खोलने के लिए इस्तेमाल होती है",
+    "hi_target": " चाबी"
+  },
+  {
+    "concept_id": "mother_parent",
+    "category": "kinship",
+    "en_prompt": "A woman who has a child is a",
+    "en_target": " mother",
+    "hi_prompt": "जिस औरत का बच्चा हो वह है",
+    "hi_target": " माँ"
+  },
+  {
+    "concept_id": "father_parent",
+    "category": "kinship",
+    "en_prompt": "A man who has a child is a",
+    "en_target": " father",
+    "hi_prompt": "जिस आदमी का बच्चा हो वह है",
+    "hi_target": " पिता"
+  }
+]

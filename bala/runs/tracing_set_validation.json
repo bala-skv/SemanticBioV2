@@ -1,0 +1,552 @@
+{
+  "summary": {
+    "n_items": 20,
+    "n_shared_first_token": 0,
+    "mean_hi_tokens": 4.7,
+    "mean_en_tokens": 1.0,
+    "n_en_rank0": 8,
+    "n_hi_rank0": 3
+  },
+  "rows": [
+    {
+      "concept_id": "sky_colour",
+      "category": "colour",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 6303,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.23071,
+      "en_target_rank": 0,
+      "en_top5": [
+        " blue",
+        " a",
+        " white",
+        " ______",
+        " the"
+      ],
+      "hi_target_prob": 0.31592,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        "।",
+        " �",
+        ",",
+        " क",
+        " "
+      ]
+    },
+    {
+      "concept_id": "grass_colour",
+      "category": "colour",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 3,
+      "en_first_id": 6176,
+      "hi_first_id": 84310,
+      "distinct_first_token": true,
+      "en_target_prob": 0.20508,
+      "en_target_rank": 0,
+      "en_top5": [
+        " green",
+        " ______",
+        " due",
+        " a",
+        " __"
+      ],
+      "hi_target_prob": 0.00808,
+      "hi_target_rank": 10,
+      "hi_top5": [
+        " �",
+        "।",
+        ",",
+        " क",
+        "\n"
+      ]
+    },
+    {
+      "concept_id": "blood_colour",
+      "category": "colour",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 4,
+      "en_first_id": 2518,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.09729,
+      "en_target_rank": 2,
+      "en_top5": [
+        " determined",
+        " due",
+        " red",
+        " mainly",
+        " __"
+      ],
+      "hi_target_prob": 0.31567,
+      "hi_target_rank": 0,
+      "hi_top5": [
+        " �",
+        "।",
+        ",",
+        " क",
+        "\n"
+      ]
+    },
+    {
+      "concept_id": "snow_colour",
+      "category": "colour",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 6,
+      "en_first_id": 4158,
+      "hi_first_id": 68158,
+      "distinct_first_token": true,
+      "en_target_prob": 0.02312,
+      "en_target_rank": 8,
+      "en_top5": [
+        " determined",
+        " a",
+        " not",
+        " affected",
+        " influenced"
+      ],
+      "hi_target_prob": 0.00971,
+      "hi_target_rank": 11,
+      "hi_top5": [
+        " �",
+        "।",
+        ",",
+        " क",
+        " "
+      ]
+    },
+    {
+      "concept_id": "dog_sound",
+      "category": "animal",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 6,
+      "en_first_id": 5562,
+      "hi_first_id": 47809,
+      "distinct_first_token": true,
+      "en_target_prob": 0.76709,
+      "en_target_rank": 0,
+      "en_top5": [
+        " dog",
+        " ______",
+        " ____",
+        " wolf",
+        " canine"
+      ],
+      "hi_target_prob": 0.10272,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        " �",
+        " क",
+        "ं",
+        "।",
+        ","
+      ]
+    },
+    {
+      "concept_id": "cat_sound",
+      "category": "animal",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 7,
+      "en_first_id": 8251,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.40332,
+      "en_target_rank": 0,
+      "en_top5": [
+        " cat",
+        " ______",
+        " ____",
+        " __",
+        "\n"
+      ],
+      "hi_target_prob": 0.34497,
+      "hi_target_rank": 0,
+      "hi_top5": [
+        " �",
+        "ं",
+        "।",
+        " क",
+        ","
+      ]
+    },
+    {
+      "concept_id": "elephant_size",
+      "category": "animal",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 4,
+      "en_first_id": 45740,
+      "hi_first_id": 84310,
+      "distinct_first_token": true,
+      "en_target_prob": 0.04147,
+      "en_target_rank": 2,
+      "en_top5": [
+        " African",
+        " blue",
+        " elephant",
+        " ____",
+        " Asian"
+      ],
+      "hi_target_prob": 0.00391,
+      "hi_target_rank": 22,
+      "hi_top5": [
+        "ं",
+        " �",
+        "\n",
+        " क",
+        "\n\n"
+      ]
+    },
+    {
+      "concept_id": "bird_fly",
+      "category": "animal",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 11958,
+      "hi_first_id": 83636,
+      "distinct_first_token": true,
+      "en_target_prob": 0.05032,
+      "en_target_rank": 6,
+      "en_top5": [
+        " ____",
+        " __",
+        " ______",
+        "\n",
+        "____"
+      ],
+      "hi_target_prob": 0.01054,
+      "hi_target_rank": 18,
+      "hi_top5": [
+        " �",
+        " क",
+        "\n",
+        "ं",
+        "।"
+      ]
+    },
+    {
+      "concept_id": "sun_time",
+      "category": "nature",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 7015,
+      "hi_first_id": 68158,
+      "distinct_first_token": true,
+      "en_target_prob": 0.3689,
+      "en_target_rank": 0,
+      "en_top5": [
+        " sun",
+        " Sun",
+        " light",
+        " sunlight",
+        " energy"
+      ],
+      "hi_target_prob": 0.00237,
+      "hi_target_rank": 30,
+      "hi_top5": [
+        " �",
+        "।",
+        ",",
+        " ",
+        " क"
+      ]
+    },
+    {
+      "concept_id": "moon_time",
+      "category": "nature",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 17788,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.03333,
+      "en_target_rank": 3,
+      "en_top5": [
+        " light",
+        " reflection",
+        " glow",
+        " moon",
+        " sun"
+      ],
+      "hi_target_prob": 0.27588,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        "।",
+        " �",
+        ",",
+        "ं",
+        " "
+      ]
+    },
+    {
+      "concept_id": "water_liquid",
+      "category": "nature",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 4,
+      "en_first_id": 3015,
+      "hi_first_id": 83636,
+      "distinct_first_token": true,
+      "en_target_prob": 0.04538,
+      "en_target_rank": 2,
+      "en_top5": [
+        " a",
+        " ____",
+        " water",
+        " the",
+        " not"
+      ],
+      "hi_target_prob": 0.01628,
+      "hi_target_rank": 8,
+      "hi_top5": [
+        " �",
+        " क",
+        "ं",
+        " स",
+        " म"
+      ]
+    },
+    {
+      "concept_id": "fire_hot",
+      "category": "nature",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 3,
+      "en_first_id": 3940,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.00482,
+      "en_target_rank": 15,
+      "en_top5": [
+        " called",
+        " a",
+        " the",
+        " __",
+        " known"
+      ],
+      "hi_target_prob": 0.26733,
+      "hi_target_rank": 0,
+      "hi_top5": [
+        " �",
+        "।",
+        " क",
+        "\n",
+        " "
+      ]
+    },
+    {
+      "concept_id": "eye_see",
+      "category": "body",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 7912,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.17383,
+      "en_target_rank": 1,
+      "en_top5": [
+        " ____",
+        " eye",
+        " __",
+        "\n",
+        " eyes"
+      ],
+      "hi_target_prob": 0.17603,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        "ं",
+        " �",
+        "।",
+        ":",
+        ","
+      ]
+    },
+    {
+      "concept_id": "ear_hear",
+      "category": "body",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 3,
+      "en_first_id": 2430,
+      "hi_first_id": 47809,
+      "distinct_first_token": true,
+      "en_target_prob": 0.25415,
+      "en_target_rank": 0,
+      "en_top5": [
+        " ear",
+        " ____",
+        " __",
+        "\n",
+        " ______"
+      ],
+      "hi_target_prob": 0.05518,
+      "hi_target_rank": 3,
+      "hi_top5": [
+        "ं",
+        " �",
+        "।",
+        " क",
+        ","
+      ]
+    },
+    {
+      "concept_id": "hand_hold",
+      "category": "body",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 3,
+      "en_first_id": 1424,
+      "hi_first_id": 84310,
+      "distinct_first_token": true,
+      "en_target_prob": 0.08032,
+      "en_target_rank": 2,
+      "en_top5": [
+        " ____",
+        " __",
+        " hand",
+        "____",
+        "\n"
+      ],
+      "hi_target_prob": 0.00474,
+      "hi_target_rank": 17,
+      "hi_top5": [
+        "ं",
+        " �",
+        "।",
+        ",",
+        " क"
+      ]
+    },
+    {
+      "concept_id": "book_read",
+      "category": "object",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 2311,
+      "hi_first_id": 47809,
+      "distinct_first_token": true,
+      "en_target_prob": 0.03427,
+      "en_target_rank": 1,
+      "en_top5": [
+        " story",
+        " book",
+        " very",
+        " poem",
+        " good"
+      ],
+      "hi_target_prob": 0.14746,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        " �",
+        " क",
+        "ं",
+        " स",
+        ","
+      ]
+    },
+    {
+      "concept_id": "door_enter",
+      "category": "object",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 9,
+      "en_first_id": 6006,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.39233,
+      "en_target_rank": 0,
+      "en_top5": [
+        " door",
+        " front",
+        " main",
+        " back",
+        " doorway"
+      ],
+      "hi_target_prob": 0.28613,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        "ं",
+        " �",
+        "।",
+        " क",
+        ","
+      ]
+    },
+    {
+      "concept_id": "key_lock",
+      "category": "object",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 5,
+      "en_first_id": 1376,
+      "hi_first_id": 14925,
+      "distinct_first_token": true,
+      "en_target_prob": 0.11884,
+      "en_target_rank": 1,
+      "en_top5": [
+        " ____",
+        " key",
+        " __",
+        " combination",
+        "____"
+      ],
+      "hi_target_prob": 0.15417,
+      "hi_target_rank": 1,
+      "hi_top5": [
+        "।",
+        " �",
+        "ं",
+        ",",
+        " क"
+      ]
+    },
+    {
+      "concept_id": "mother_parent",
+      "category": "kinship",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 3,
+      "en_first_id": 6554,
+      "hi_first_id": 91217,
+      "distinct_first_token": true,
+      "en_target_prob": 0.12744,
+      "en_target_rank": 1,
+      "en_top5": [
+        " woman",
+        " mother",
+        " carrier",
+        " parent",
+        " ____"
+      ],
+      "hi_target_prob": 0.01059,
+      "hi_target_rank": 14,
+      "hi_top5": [
+        " �",
+        " क",
+        "।",
+        "?",
+        "?\n"
+      ]
+    },
+    {
+      "concept_id": "father_parent",
+      "category": "kinship",
+      "en_n_tokens": 1,
+      "hi_n_tokens": 4,
+      "en_first_id": 6981,
+      "hi_first_id": 83636,
+      "distinct_first_token": true,
+      "en_target_prob": 0.54346,
+      "en_target_rank": 0,
+      "en_top5": [
+        " father",
+        " man",
+        " parent",
+        " grandfather",
+        " ____"
+      ],
+      "hi_target_prob": 0.0035,
+      "hi_target_rank": 19,
+      "hi_top5": [
+        " �",
+        " क",
+        ",",
+        "?\n\n",
+        "।"
+      ]
+    }
+  ]
+}

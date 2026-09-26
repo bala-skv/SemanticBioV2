@@ -1,0 +1,382 @@
+[
+  {
+    "concept_id": "sky_colour",
+    "category": "colour",
+    "en_prompt": "A clear sky is coloured ",
+    "en_target": "blue",
+    "hi_deva_prompt": "साफ़ आसमान का रंग होता है ",
+    "hi_deva_target": "नीला",
+    "hi_latn_prompt": "saaf aasmaan ka rang hota hai ",
+    "hi_latn_target": "neela"
+  },
+  {
+    "concept_id": "grass_colour",
+    "category": "colour",
+    "en_prompt": "Fresh grass is coloured ",
+    "en_target": "green",
+    "hi_deva_prompt": "ताज़ी घास का रंग होता है ",
+    "hi_deva_target": "हरा",
+    "hi_latn_prompt": "taazi ghaas ka rang hota hai ",
+    "hi_latn_target": "hara"
+  },
+  {
+    "concept_id": "blood_colour",
+    "category": "colour",
+    "en_prompt": "Human blood is coloured ",
+    "en_target": "red",
+    "hi_deva_prompt": "इंसान के खून का रंग होता है ",
+    "hi_deva_target": "लाल",
+    "hi_latn_prompt": "insaan ke khoon ka rang hota hai ",
+    "hi_latn_target": "laal"
+  },
+  {
+    "concept_id": "coal_colour",
+    "category": "colour",
+    "en_prompt": "A lump of coal is coloured ",
+    "en_target": "black",
+    "hi_deva_prompt": "कोयले का रंग होता है ",
+    "hi_deva_target": "काला",
+    "hi_latn_prompt": "koyle ka rang hota hai ",
+    "hi_latn_target": "kaala"
+  },
+  {
+    "concept_id": "milk_colour",
+    "category": "colour",
+    "en_prompt": "A glass of milk is coloured ",
+    "en_target": "white",
+    "hi_deva_prompt": "दूध का रंग होता है ",
+    "hi_deva_target": "सफ़ेद",
+    "hi_latn_prompt": "doodh ka rang hota hai ",
+    "hi_latn_target": "safed"
+  },
+  {
+    "concept_id": "dog_sound",
+    "category": "animal",
+    "en_prompt": "The animal that barks loudly is a ",
+    "en_target": "dog",
+    "hi_deva_prompt": "ज़ोर से भौंकने वाला जानवर है ",
+    "hi_deva_target": "कुत्ता",
+    "hi_latn_prompt": "zor se bhaunkne wala jaanwar hai ",
+    "hi_latn_target": "kutta"
+  },
+  {
+    "concept_id": "cat_sound",
+    "category": "animal",
+    "en_prompt": "The small animal that meows is a ",
+    "en_target": "cat",
+    "hi_deva_prompt": "म्याऊँ करने वाला छोटा जानवर है ",
+    "hi_deva_target": "बिल्ली",
+    "hi_latn_prompt": "myaun karne wala chhota jaanwar hai ",
+    "hi_latn_target": "billi"
+  },
+  {
+    "concept_id": "elephant_size",
+    "category": "animal",
+    "en_prompt": "The biggest animal on land is the ",
+    "en_target": "elephant",
+    "hi_deva_prompt": "ज़मीन पर सबसे बड़ा जानवर है ",
+    "hi_deva_target": "हाथी",
+    "hi_latn_prompt": "zameen par sabse bada jaanwar hai ",
+    "hi_latn_target": "haathi"
+  },
+  {
+    "concept_id": "horse_ride",
+    "category": "animal",
+    "en_prompt": "The animal people ride and race is a ",
+    "en_target": "horse",
+    "hi_deva_prompt": "जिस जानवर की सवारी की जाती है वह है ",
+    "hi_deva_target": "घोड़ा",
+    "hi_latn_prompt": "jis jaanwar ki sawaari ki jaati hai wo hai ",
+    "hi_latn_target": "ghoda"
+  },
+  {
+    "concept_id": "fish_water",
+    "category": "animal",
+    "en_prompt": "The animal that lives in water and swims is a ",
+    "en_target": "fish",
+    "hi_deva_prompt": "पानी में रहने और तैरने वाला जानवर है ",
+    "hi_deva_target": "मछली",
+    "hi_latn_prompt": "paani mein rehne aur tairne wala jaanwar hai ",
+    "hi_latn_target": "machhli"
+  },
+  {
+    "concept_id": "cow_milk",
+    "category": "animal",
+    "en_prompt": "The farm animal that gives milk is a ",
+    "en_target": "cow",
+    "hi_deva_prompt": "दूध देने वाला जानवर है ",
+    "hi_deva_target": "गाय",
+    "hi_latn_prompt": "doodh dene wala jaanwar hai ",
+    "hi_latn_target": "gaay"
+  },
+  {
+    "concept_id": "sun_day",
+    "category": "nature",
+    "en_prompt": "During the day the sky is lit by the ",
+    "en_target": "sun",
+    "hi_deva_prompt": "दिन में आसमान को रोशन करता है ",
+    "hi_deva_target": "सूरज",
+    "hi_latn_prompt": "din mein aasmaan ko roshan karta hai ",
+    "hi_latn_target": "sooraj"
+  },
+  {
+    "concept_id": "moon_night",
+    "category": "nature",
+    "en_prompt": "At night the sky is lit by the ",
+    "en_target": "moon",
+    "hi_deva_prompt": "रात में आसमान को रोशन करता है ",
+    "hi_deva_target": "चाँद",
+    "hi_latn_prompt": "raat mein aasmaan ko roshan karta hai ",
+    "hi_latn_target": "chaand"
+  },
+  {
+    "concept_id": "water_drink",
+    "category": "nature",
+    "en_prompt": "The liquid people drink every day is ",
+    "en_target": "water",
+    "hi_deva_prompt": "जो चीज़ हम रोज़ पीते हैं वह है ",
+    "hi_deva_target": "पानी",
+    "hi_latn_prompt": "jo cheez hum roz peete hain wo hai ",
+    "hi_latn_target": "paani"
+  },
+  {
+    "concept_id": "rain_cloud",
+    "category": "nature",
+    "en_prompt": "Water that falls from the clouds is ",
+    "en_target": "rain",
+    "hi_deva_prompt": "बादलों से गिरने वाला पानी है ",
+    "hi_deva_target": "बारिश",
+    "hi_latn_prompt": "baadalon se girne wala paani hai ",
+    "hi_latn_target": "baarish"
+  },
+  {
+    "concept_id": "river_flow",
+    "category": "nature",
+    "en_prompt": "Water that flows to the sea is a ",
+    "en_target": "river",
+    "hi_deva_prompt": "समुद्र की ओर बहने वाला पानी है ",
+    "hi_deva_target": "नदी",
+    "hi_latn_prompt": "samudra ki or behne wala paani hai ",
+    "hi_latn_target": "nadi"
+  },
+  {
+    "concept_id": "eye_see",
+    "category": "body",
+    "en_prompt": "People see the world with their ",
+    "en_target": "eyes",
+    "hi_deva_prompt": "हम दुनिया देखते हैं अपनी ",
+    "hi_deva_target": "आँख",
+    "hi_latn_prompt": "hum duniya dekhte hain apni ",
+    "hi_latn_target": "aankh"
+  },
+  {
+    "concept_id": "ear_hear",
+    "category": "body",
+    "en_prompt": "People hear sounds with their ",
+    "en_target": "ears",
+    "hi_deva_prompt": "हम आवाज़ सुनते हैं अपने ",
+    "hi_deva_target": "कान",
+    "hi_latn_prompt": "hum aawaaz sunte hain apne ",
+    "hi_latn_target": "kaan"
+  },
+  {
+    "concept_id": "hand_hold",
+    "category": "body",
+    "en_prompt": "People pick things up with their ",
+    "en_target": "hands",
+    "hi_deva_prompt": "हम चीज़ें उठाते हैं अपने ",
+    "hi_deva_target": "हाथ",
+    "hi_latn_prompt": "hum cheezein uthate hain apne ",
+    "hi_latn_target": "haath"
+  },
+  {
+    "concept_id": "nose_smell",
+    "category": "body",
+    "en_prompt": "People smell things with their ",
+    "en_target": "nose",
+    "hi_deva_prompt": "हम सूँघते हैं अपनी ",
+    "hi_deva_target": "नाक",
+    "hi_latn_prompt": "hum soonghte hain apni ",
+    "hi_latn_target": "naak"
+  },
+  {
+    "concept_id": "book_read",
+    "category": "object",
+    "en_prompt": "People sit quietly and read a ",
+    "en_target": "book",
+    "hi_deva_prompt": "लोग चुपचाप बैठकर पढ़ते हैं ",
+    "hi_deva_target": "किताब",
+    "hi_latn_prompt": "log chupchaap baithkar padhte hain ",
+    "hi_latn_target": "kitaab"
+  },
+  {
+    "concept_id": "door_enter",
+    "category": "object",
+    "en_prompt": "People walk into a room through the ",
+    "en_target": "door",
+    "hi_deva_prompt": "कमरे में लोग अंदर आते हैं ",
+    "hi_deva_target": "दरवाज़ा",
+    "hi_latn_prompt": "kamre mein log andar aate hain ",
+    "hi_latn_target": "darwaaza"
+  },
+  {
+    "concept_id": "key_lock",
+    "category": "object",
+    "en_prompt": "People open a lock using a ",
+    "en_target": "key",
+    "hi_deva_prompt": "ताला खोलने के लिए चाहिए ",
+    "hi_deva_target": "चाबी",
+    "hi_latn_prompt": "taala kholne ke liye chahiye ",
+    "hi_latn_target": "chaabi"
+  },
+  {
+    "concept_id": "window_light",
+    "category": "object",
+    "en_prompt": "Light comes into a room through the ",
+    "en_target": "window",
+    "hi_deva_prompt": "कमरे में रोशनी आती है ",
+    "hi_deva_target": "खिड़की",
+    "hi_latn_prompt": "kamre mein roshni aati hai ",
+    "hi_latn_target": "khidki"
+  },
+  {
+    "concept_id": "pen_write",
+    "category": "object",
+    "en_prompt": "People write on paper with a ",
+    "en_target": "pen",
+    "hi_deva_prompt": "काग़ज़ पर लिखने के लिए चाहिए ",
+    "hi_deva_target": "कलम",
+    "hi_latn_prompt": "kaagaz par likhne ke liye chahiye ",
+    "hi_latn_target": "kalam"
+  },
+  {
+    "concept_id": "mother_parent",
+    "category": "kinship",
+    "en_prompt": "The woman who gave birth to you is your ",
+    "en_target": "mother",
+    "hi_deva_prompt": "जिसने आपको जन्म दिया वह है आपकी ",
+    "hi_deva_target": "माँ",
+    "hi_latn_prompt": "jisne aapko janm diya wo hai aapki ",
+    "hi_latn_target": "maa"
+  },
+  {
+    "concept_id": "father_parent",
+    "category": "kinship",
+    "en_prompt": "The man who raised you alongside your mother is your ",
+    "en_target": "father",
+    "hi_deva_prompt": "माँ के साथ आपको पालने वाला है आपका ",
+    "hi_deva_target": "पिता",
+    "hi_latn_prompt": "maa ke saath aapko paalne wala hai aapka ",
+    "hi_latn_target": "pita"
+  },
+  {
+    "concept_id": "brother_sibling",
+    "category": "kinship",
+    "en_prompt": "Your parents' other son is your ",
+    "en_target": "brother",
+    "hi_deva_prompt": "आपके माता-पिता का दूसरा बेटा है आपका ",
+    "hi_deva_target": "भाई",
+    "hi_latn_prompt": "aapke maata-pita ka doosra beta hai aapka ",
+    "hi_latn_target": "bhai"
+  },
+  {
+    "concept_id": "sister_sibling",
+    "category": "kinship",
+    "en_prompt": "Your parents' other daughter is your ",
+    "en_target": "sister",
+    "hi_deva_prompt": "आपके माता-पिता की दूसरी बेटी है आपकी ",
+    "hi_deva_target": "बहन",
+    "hi_latn_prompt": "aapke maata-pita ki doosri beti hai aapki ",
+    "hi_latn_target": "behen"
+  },
+  {
+    "concept_id": "bread_eat",
+    "category": "food",
+    "en_prompt": "Flour baked in an oven becomes ",
+    "en_target": "bread",
+    "hi_deva_prompt": "आटे से बनने वाली रोज़ की चीज़ है ",
+    "hi_deva_target": "रोटी",
+    "hi_latn_prompt": "aate se banne wali roz ki cheez hai ",
+    "hi_latn_target": "roti"
+  },
+  {
+    "concept_id": "rice_grain",
+    "category": "food",
+    "en_prompt": "The white grain boiled and eaten daily is ",
+    "en_target": "rice",
+    "hi_deva_prompt": "रोज़ उबालकर खाया जाने वाला सफ़ेद अनाज है ",
+    "hi_deva_target": "चावल",
+    "hi_latn_prompt": "roz ubaalkar khaya jaane wala safed anaaj hai ",
+    "hi_latn_target": "chaawal"
+  },
+  {
+    "concept_id": "salt_taste",
+    "category": "food",
+    "en_prompt": "The white powder that makes food salty is ",
+    "en_target": "salt",
+    "hi_deva_prompt": "खाने को नमकीन बनाने वाली चीज़ है ",
+    "hi_deva_target": "नमक",
+    "hi_latn_prompt": "khaane ko namkeen banane wali cheez hai ",
+    "hi_latn_target": "namak"
+  },
+  {
+    "concept_id": "morning_time",
+    "category": "time",
+    "en_prompt": "The part of the day when the sun rises is the ",
+    "en_target": "morning",
+    "hi_deva_prompt": "जब सूरज निकलता है वह वक़्त है ",
+    "hi_deva_target": "सुबह",
+    "hi_latn_prompt": "jab sooraj nikalta hai wo waqt hai ",
+    "hi_latn_target": "subah"
+  },
+  {
+    "concept_id": "night_time",
+    "category": "time",
+    "en_prompt": "The part of the day that is dark is the ",
+    "en_target": "night",
+    "hi_deva_prompt": "दिन का जो हिस्सा अँधेरा होता है वह है ",
+    "hi_deva_target": "रात",
+    "hi_latn_prompt": "din ka jo hissa andhera hota hai wo hai ",
+    "hi_latn_target": "raat"
+  },
+  {
+    "concept_id": "today_day",
+    "category": "time",
+    "en_prompt": "The day that is happening right now is ",
+    "en_target": "today",
+    "hi_deva_prompt": "जो दिन अभी चल रहा है वह है ",
+    "hi_deva_target": "आज",
+    "hi_latn_prompt": "jo din abhi chal raha hai wo hai ",
+    "hi_latn_target": "aaj"
+  },
+  {
+    "concept_id": "kitchen_cook",
+    "category": "place",
+    "en_prompt": "Food is cooked in the ",
+    "en_target": "kitchen",
+    "hi_deva_prompt": "खाना पकाया जाता है ",
+    "hi_deva_target": "रसोई",
+    "hi_latn_prompt": "khaana pakaya jaata hai ",
+    "hi_latn_target": "rasoi"
+  },
+  {
+    "concept_id": "house_live",
+    "category": "place",
+    "en_prompt": "The building a family lives in is a ",
+    "en_target": "house",
+    "hi_deva_prompt": "जिस जगह परिवार रहता है वह है ",
+    "hi_deva_target": "घर",
+    "hi_latn_prompt": "jis jagah parivaar rehta hai wo hai ",
+    "hi_latn_target": "ghar"
+  },
+  {
+    "concept_id": "market_buy",
+    "category": "place",
+    "en_prompt": "People go to buy vegetables at the ",
+    "en_target": "market",
+    "hi_deva_prompt": "सब्ज़ी ख़रीदने लोग जाते हैं ",
+    "hi_deva_target": "बाज़ार",
+    "hi_latn_prompt": "sabzi khareedne log jaate hain ",
+    "hi_latn_target": "baazaar"
+  }
+]
